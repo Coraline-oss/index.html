@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Little Surprise 🤭</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+      font-family: "Segoe UI", sans-serif;
+      color: #eef5ff;
+      text-align: center;
+      background:
+        radial-gradient(circle at 20% 20%, #243f70 0, transparent 35%),
+        radial-gradient(circle at 80% 80%, #172b50 0, transparent 40%),
+        linear-gradient(145deg, #071326, #101e3c, #080f20);
+    }
+
+    .card {
+      width: 100%;
+      max-width: 420px;
+      min-height: 360px;
+      padding: 45px 24px 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(194, 218, 255, 0.25);
+      border-radius: 26px;
+      background: rgba(255, 255, 255, 0.07);
+      box-shadow: 0 15px 45px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px);
+      animation: appear 1s ease;
+    }
+
+    .moon {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 0 0 18px;
+      font-size: clamp(30px, 8vw, 42px);
+      letter-spacing: 1px;
+    }
+
+    p {
+      margin: 0;
+      font-size: 17px;
+      line-height: 1.7;
+      color: #d7e6ff;
+    }
+
+    .giggle {
+      margin-top: 55px;
+      font-size: 16px;
+      color: #ffffff;
+      letter-spacing: 1px;
+    }
+
+    @keyframes appear {
+      from {
+        opacity: 0;
+        transform: translateY(12px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="card">
+    <div class="moon">🌙</div>
+
+    <h1>GOTCHA! 🤗</h1>
+
+    <p>You were curious, weren't you? 👀💙</p>
+
+    <div class="giggle">hehehehe 🤍</div>
+  </main>
+</body>
+</html>
